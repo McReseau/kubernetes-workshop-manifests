@@ -29,26 +29,26 @@
 #
 
 ## - TASK 1 - Solution :
-    [solution in file create_ns.yaml](https://dev-teligencia.com/vianney/kubernetes-workshop-manifests/-/blob/main/create_ns.yaml)
+    [solution in file create_ns.yaml]
  
 ## - TASK 2 - Solution :
-    [Solution 1 in file pod-apps.yaml](https://dev-teligencia.com/vianney/kubernetes-workshop-manifests/-/blob/main/pod-apps.yaml)
-    [Solution 2: in file dep-apps.yaml](https://dev-teligencia.com/vianney/kubernetes-workshop-manifests/-/blob/main/dep-apps.yaml)
+    [Solution 1 in file pod-apps.yaml]
+    [Solution 2: in file dep-apps.yaml]
 
 ## - TASK 3 - Solution :
-    [Solution 1: in file svc_apps_test.yaml](https://dev-teligencia.com/vianney/kubernetes-workshop-manifests/-/blob/main/svc_apps_test.yaml)
-    [Solution 2: in file svc_apps_prod.yaml](https://dev-teligencia.com/vianney/kubernetes-workshop-manifests/-/blob/main/svc_apps_prod.yaml)
+    [Solution 1: in file svc_apps_test.yaml]
+    [Solution 2: in file svc_apps_prod.yaml]
 
 ## - TASK 4 - Solution :
-    [Solution in file login.yaml (Consult recording video through the link in the confluence documentation in order to sccessfully complete this task)](https://dev-teligencia.com/vianney/kubernetes-workshop-manifests/-/blob/main/login.yaml)
+    [Solution in file login.yaml 
 
 ## - TASK 5 - Solution :
-    [Solution in the file "Trivy commands"](https://dev-teligencia.com/vianney/kubernetes-workshop-manifests/-/blob/main/Trivy%20commands) 
+    [Solution in the file "Trivy commands"]
 
 ## - TASK 6 - Solution :
-    [Solution 1 in the file np-deny_all.yaml](https://dev-teligencia.com/vianney/kubernetes-workshop-manifests/-/blob/main/np-deny_all.yaml)
-    [Solution 2 in the file np-apps_dev_to-apps_prod.yaml](https://dev-teligencia.com/vianney/kubernetes-workshop-manifests/-/blob/main/np-apps_dev-to-apps_prod.yaml)
+    [Solution 1 in the file np-deny_all.yaml]
+    [Solution 2 in the file np-apps_dev_to-apps_prod.yaml]
 
 ### Any issue during this workhop?
-### email me on vianney.noutenijeu@teligencia.com
+### email me on delegueasr@gmail.com
 
