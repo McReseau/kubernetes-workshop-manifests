@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    svc: apps-prod
+  name: sbom-svc
+  namespace: production
+spec:
+  type: ClusterIP
+  selector:
+    app: sbom-prod
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080

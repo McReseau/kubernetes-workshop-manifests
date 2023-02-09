@@ -1,0 +1,3 @@
+trivy image nginx:1.15.0
+
+trivy image ubuntu:23.04

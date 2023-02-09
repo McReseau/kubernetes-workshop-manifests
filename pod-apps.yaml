@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: apps
+  namespace: development
+  labels:
+     app: sbom-test
+spec:
+  containers:
+  - name: sbom-test
+    image: mcreseau/afcd-apps:1.0
+    ports:
+    - name: web
+      containerPort: 80

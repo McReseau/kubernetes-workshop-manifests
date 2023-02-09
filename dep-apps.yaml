@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: sbom
+  name: sbom
+  namespace: production
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: sbom-prod
+  template:
+    metadata:
+      labels:
+        app: sbom-prod
+    spec:
+      containers:
+      - image: mcreseau/train-apps:1.0
+        name: train-apps
+        ports:
+        - name: web
+          containerPort: 8080

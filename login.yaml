@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: login
+  namespace: production
+data:
+  user: dGVsaWdlbmNpYQ==
+  pass: VGVsaWdlbmNpYQ==
+
+
+#kubectl create secret generic login -n development --from-literal=user=teligencia --from-literal=pass=Teligencia

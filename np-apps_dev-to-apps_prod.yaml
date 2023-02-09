@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: np-apps-dev-to-apps-prod
+  namespace: development
+spec:
+  podSelector: {}
+  policyTypes:
+  - Ingress
+  ingress:
+  ingress:
+  - from: 
+    - namespaceSelector:
+        matchLabels:
+           app: 
+# the label on the namespace must be configured firt
+# kubectl label namespace production apps=production
+      podSelector:
+         matchLabels:
+           app: sbom-prod
